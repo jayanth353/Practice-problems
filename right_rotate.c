@@ -13,15 +13,18 @@ int main()
     printf("\n Enter that %d elements",n);
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
+    //temp array
     for(i=0;i<k;i++)
     {
         t[i]=a[i];
     }
+    //shifting values to front
     for(i=0;i<l;i++,k++)
     {
      a[i]=a[k];
     
     }
+    //replacing last values with temp values
     for(int z=0;z<temp;i++,z++)
     {
       a[i]=t[z];
