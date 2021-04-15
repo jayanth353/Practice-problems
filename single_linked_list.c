@@ -42,7 +42,7 @@ void display()
     }  
     while(head!=NULL)
     {
-        printf("%d ",head->data);
+        printf("%d -> ",head->data);
         head=head->next;
      }
    }
