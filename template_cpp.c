@@ -14,3 +14,4 @@ int main()
     cout << "sum 2+3="<<sum(2,3);
     cout << "\nsum 1.1+2.2="<<sum(1.1,2.2);
 }
+//making differences
